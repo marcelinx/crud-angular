@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "1",
+    "name": "Curso de Review",
+    "category": "Ágil"
+  },
+  {
+    "_id": "2",
+    "name": "Introdução à Programação para Iniciantes",
+    "category": "Desenvolvimento de Software"
+  },
+  {
+    "_id": "3",
+    "name": "Design Thinking para Inovadores",
+    "category": "Design e Inovação"
+  },
+  {
+    "_id": "4",
+    "name": "Fundamentos de Data Science",
+    "category": "Dados"
+  },
+  {
+    "_id": "5",
+    "name": "Segurança Cibernética para Todos",
+    "category": "Segurança da Informação"
+  },
+  {
+    "_id": "6",
+    "name": "Marketing Digital 101",
+    "category": "Marketing"
+  },
+  {
+    "_id": "7",
+    "name": "Empreendedorismo Digital",
+    "category": "Negócios"
+  }
+]
