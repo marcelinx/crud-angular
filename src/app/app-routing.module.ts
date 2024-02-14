@@ -5,10 +5,10 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'courses',
+    redirectTo: 'cursos',
   },
   {
-    path: 'courses',
+    path: 'cursos',
     loadChildren: () =>
       import('./courses/courses.module').then((m) => m.CoursesModule),
   },
