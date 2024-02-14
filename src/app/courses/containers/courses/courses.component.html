@@ -1,12 +1,13 @@
 <mat-card>
   <mat-card-content>
     <mat-toolbar color="primary">
-      <span>Cursos Disponiveis</span>
+      <span>{{ messages.availableCourses }}</span>
     </mat-toolbar>
 
     <app-courses-list
       *ngIf="courses$ | async as courses; else loading"
       [courses]="courses"
+      (add)="onAdd()"
     ></app-courses-list>
   </mat-card-content>
 

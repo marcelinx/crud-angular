@@ -7,7 +7,7 @@
 
   <!-- Category Column -->
   <ng-container matColumnDef="category">
-    <mat-header-cell *matHeaderCellDef>Categoria</mat-header-cell>
+    <mat-header-cell *matHeaderCellDef>{{ messages.category }}</mat-header-cell>
     <mat-cell *matCellDef="let course">
       {{ course.category }}
       <mat-icon aria-hidden="false" aria-label="Categoria do Curso">{{

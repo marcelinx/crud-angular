@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
-import { CoursesService } from '../services/courses.service';
+import { courseForm } from '../../constants/messages.constants';
+import { CoursesService } from '../../services/courses.service';
 
 @Component({
   selector: 'app-course-form',
@@ -11,6 +12,7 @@ import { CoursesService } from '../services/courses.service';
   styleUrls: ['./course-form.component.scss'],
 })
 export class CourseFormComponent implements OnInit {
+  messages = courseForm;
   form: FormGroup;
 
   constructor(
